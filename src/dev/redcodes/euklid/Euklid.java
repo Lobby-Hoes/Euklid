@@ -16,13 +16,18 @@ import javax.security.auth.login.LoginException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import dev.redcodes.euklid.data.token.Token;
+import dev.redcodes.euklid.general.info.InfoCommand;
+import dev.redcodes.euklid.mathefacts.commands.MathefactAutoComplete;
+import dev.redcodes.euklid.mathefacts.commands.MathefactCommand;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.entities.Guild;
+import net.dv8tion.jda.api.interactions.commands.OptionType;
 import net.dv8tion.jda.api.interactions.commands.build.CommandData;
+import net.dv8tion.jda.api.interactions.commands.build.Commands;
+import net.dv8tion.jda.api.interactions.commands.build.OptionData;
 import net.dv8tion.jda.api.requests.GatewayIntent;
 import net.dv8tion.jda.api.utils.MemberCachePolicy;
 
@@ -34,18 +39,18 @@ public class Euklid {
 
 	private static String version = "Pre-Release 1.0";
 
-	private static boolean dev = false;
+	private static boolean dev = true;
 
-	private static String year = "2021";
+	private static String year;
 
-	private static String icon = "https://i.imgur.com/O74dUFG.jpg";
+	private static String icon = "https://i.imgur.com/xARAVsM.png";
 
 	private static Instant online = Instant.now();
 
 	public static void main(String[] args) {
-
-		String token = Token.getToken();
-
+				
+		String token = args[0];
+		
 		JDABuilder builder = JDABuilder.createDefault(token);
 
 		builder.setActivity(Activity.watching("Bot starting..."));
@@ -57,6 +62,10 @@ public class Euklid {
 
 		builder.setEnabledIntents(intents);
 		builder.setMemberCachePolicy(MemberCachePolicy.ALL);
+		
+		builder.addEventListeners(new MathefactAutoComplete());
+		builder.addEventListeners(new MathefactCommand());
+		builder.addEventListeners(new InfoCommand());
 
 		try {
 			jda = builder.build();
@@ -70,6 +79,7 @@ public class Euklid {
 
 		shutdown();
 		runLoop();
+
 	}
 
 	private static boolean shutdown = false;
@@ -116,11 +126,11 @@ public class Euklid {
 					onSecond();
 				}
 			}
-		}, 0, (7 * 1000));
+		}, 2000, (15 * 1000));
 	}
 
 	private static boolean commandCheck = true;
-	private static String[] status = new String[] { "axolotl groans", "%members% User", "%version%" };
+	private static String[] status = new String[] { "mit euklid", "%members% Users", "%version%" };
 	private static Random rand = new Random();
 
 	private static void onSecond() {
@@ -130,11 +140,19 @@ public class Euklid {
 
 			List<CommandData> cmds = new ArrayList<>();
 
+			cmds.add(Commands.slash("mathefact", "Suche nach einem Mathefact aus dem Hobbylos-Podcast.")
+					.addOptions(new OptionData(OptionType.STRING, "suche",
+							"Suche nach der Folgennummer, Folgenname oder dem Mathefactthema.", true)
+							.setAutoComplete(true)));
+			cmds.add(Commands.slash("info", "Information über den Bot."));
+
 			if (dev) {
 				jda.getGuildById(580732235313971211L).updateCommands().addCommands(cmds)
 						.queue(commands -> logger.info("Commands published"));
+				jda.updateCommands().addCommands(new ArrayList<>()).queue();
 			} else {
 				jda.updateCommands().addCommands(cmds).queue(commands -> logger.info("Commands published"));
+				jda.getGuildById(580732235313971211L).updateCommands().addCommands(new ArrayList<>()).queue();
 			}
 
 		}
@@ -167,6 +185,22 @@ public class Euklid {
 			onSecond();
 		}
 
+	}
+
+	public static String getYear() {
+		return year;
+	}
+
+	public static String getIconUrl() {
+		return icon;
+	}
+
+	public static Instant getOnlineSince() {
+		return online;
+	}
+	
+	public static String getVersion() {
+		return version;
 	}
 
 }
