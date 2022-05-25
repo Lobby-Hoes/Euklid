@@ -37,9 +37,9 @@ public class Euklid {
 
 	private static Logger logger = LoggerFactory.getLogger(Euklid.class);
 
-	private static String version = "Pre-Release 1.0";
+	private static String version = "Preview 1.0";
 
-	private static boolean dev = true;
+	private static boolean dev = false;
 
 	private static String year;
 
