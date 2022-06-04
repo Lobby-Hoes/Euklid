@@ -30,7 +30,7 @@ public class MathefactCommand extends ListenerAdapter {
 				msg.addField("Faktthema", fact.getTheme(), true);
 				msg.addField("Faktbeschreibung", fact.getDescription(), true);
 				msg.addField("Episodenzeitpunkt", "`" + fact.getStartTime() + "` - `" + fact.getEndTime() + "`", true);
-				msg.addField("Episode", "Folge " + fact.getEpisodeId() + ": `" + fact.getEpisodeName() + "`", true);
+				msg.addField("Episode", "Folge " + fact.getEpisodeId() + "\n> `" + fact.getEpisodeName() + "`", true);
 				msg.addField("Spotify-ID", "`" + fact.getSpotifyId() + "`", true);
 				msg.setThumbnail("https://i.imgur.com/rqizpAj.png");
 				msg.setColor(MessageColor.SUCCESS.getColor());

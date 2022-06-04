@@ -19,6 +19,8 @@ import org.slf4j.LoggerFactory;
 import dev.redcodes.euklid.general.info.InfoCommand;
 import dev.redcodes.euklid.mathefacts.commands.MathefactAutoComplete;
 import dev.redcodes.euklid.mathefacts.commands.MathefactCommand;
+import dev.redcodes.euklid.stadtgeschichten.commands.StadtGeschichteAutoComplete;
+import dev.redcodes.euklid.stadtgeschichten.commands.StadtGeschichteCommand;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.OnlineStatus;
@@ -37,7 +39,7 @@ public class Euklid {
 
 	private static Logger logger = LoggerFactory.getLogger(Euklid.class);
 
-	private static String version = "Preview 1.0";
+	private static String version = "Preview 1.1";
 
 	private static boolean dev = false;
 
@@ -46,6 +48,8 @@ public class Euklid {
 	private static String icon = "https://i.imgur.com/xARAVsM.png";
 
 	private static Instant online = Instant.now();
+	
+	private static String data = "https://raw.githubusercontent.com/Lobby-Hoes/hobbylos-data/main/data.json";
 
 	public static void main(String[] args) {
 				
@@ -66,6 +70,8 @@ public class Euklid {
 		builder.addEventListeners(new MathefactAutoComplete());
 		builder.addEventListeners(new MathefactCommand());
 		builder.addEventListeners(new InfoCommand());
+		builder.addEventListeners(new StadtGeschichteAutoComplete());
+		builder.addEventListeners(new StadtGeschichteCommand());
 
 		try {
 			jda = builder.build();
@@ -144,6 +150,10 @@ public class Euklid {
 					.addOptions(new OptionData(OptionType.STRING, "suche",
 							"Suche nach der Folgennummer, Folgenname oder dem Mathefactthema.", true)
 							.setAutoComplete(true)));
+			cmds.add(Commands.slash("stadtgeschichte", "Suche nach einer Stadtgeschichte aus dem Hobbylos-Podcast.")
+					.addOptions(new OptionData(OptionType.STRING, "suche",
+							"Suche nach der Folgennummer, Folgenname oder dem Titel der Stadtgeschichte.", true)
+							.setAutoComplete(true)));
 			cmds.add(Commands.slash("info", "Information über den Bot."));
 
 			if (dev) {
@@ -201,6 +211,10 @@ public class Euklid {
 	
 	public static String getVersion() {
 		return version;
+	}
+	
+	public static String getDataUrl() {
+		return data;
 	}
 
 }

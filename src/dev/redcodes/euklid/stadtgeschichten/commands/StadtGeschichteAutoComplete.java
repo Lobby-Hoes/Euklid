@@ -1,4 +1,4 @@
-package dev.redcodes.euklid.mathefacts.commands;
+package dev.redcodes.euklid.stadtgeschichten.commands;
 
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
@@ -10,44 +10,40 @@ import org.apache.commons.collections4.MultiValuedMap;
 import org.apache.commons.collections4.multimap.ArrayListValuedHashMap;
 
 import dev.redcodes.euklid.mathefacts.Mathefact;
-import dev.redcodes.euklid.mathefacts.MathefactUtils;
+import dev.redcodes.euklid.stadtgeschichten.StadtGeschichte;
+import dev.redcodes.euklid.stadtgeschichten.StadtGeschichtenUtils;
 import info.debatty.java.stringsimilarity.NGram;
 import net.dv8tion.jda.api.events.interaction.command.CommandAutoCompleteInteractionEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import net.dv8tion.jda.api.interactions.commands.Command.Choice;
 
-public class MathefactAutoComplete extends ListenerAdapter {
+public class StadtGeschichteAutoComplete extends ListenerAdapter {
 
 	@Override
 	public void onCommandAutoCompleteInteraction(CommandAutoCompleteInteractionEvent e) {
-
 		String[] args = e.getCommandPath().split("/");
 
-		if (args[0].equalsIgnoreCase("mathefact")) {
+		if (args[0].equalsIgnoreCase("stadtgeschichte")) {
 
 			String input = e.getFocusedOption().getValue();
 
 			NGram ng = new NGram();
 
-			MultiValuedMap<Mathefact, Double> rawMatches = new ArrayListValuedHashMap<>();
+			MultiValuedMap<StadtGeschichte, Double> rawMatches = new ArrayListValuedHashMap<>();
 
-			for (Mathefact fact : MathefactUtils.getMathefacts()) {
-				if (!fact.isEmpty()) {
+			for (StadtGeschichte story : StadtGeschichtenUtils.getStadtGeschichten()) {
+				double episodeDistance = ng.distance(input, story.getTitle());
+				double themeDistance = ng.distance(input, new Mathefact(story.getEpisode()).getEpisodeName());
 
-					double episodeDistance = ng.distance(input, fact.getEpisodeName());
-					double themeDistance = ng.distance(input, fact.getTheme());
+				rawMatches.put(story, episodeDistance);
+				rawMatches.put(story, themeDistance);
 
-					rawMatches.put(fact, episodeDistance);
-					rawMatches.put(fact, themeDistance);
-
-					if (input.equals(fact.getEpisodeId())) {
-						rawMatches.put(fact, 0.1d);
-					}
-
+				if (input.equals(story.getEpisode())) {
+					rawMatches.put(story, 0.1d);
 				}
 			}
 
-			Map<Mathefact, Double> matches = new LinkedHashMap<>();
+			Map<StadtGeschichte, Double> matches = new LinkedHashMap<>();
 
 			rawMatches.entries().stream().sorted(Map.Entry.comparingByValue()).forEachOrdered(x -> {
 
@@ -64,11 +60,11 @@ public class MathefactAutoComplete extends ListenerAdapter {
 
 			List<Choice> choices = new LinkedList<>();
 
-			for (Entry<Mathefact, Double> entry : matches.entrySet()) {
+			for (Entry<StadtGeschichte, Double> entry : matches.entrySet()) {
 				if (choices.size() < 25) {
 					Choice choice = new Choice(
-							"Folge " + entry.getKey().getEpisodeId() + " - " + entry.getKey().getTheme(),
-							entry.getKey().getEpisodeId());
+							"Folge " + entry.getKey().getEpisode() + " - " + entry.getKey().getTitle(),
+							entry.getKey().getEpisode() + "_" + entry.getKey().getTitle());
 					choices.add(choice);
 				}
 			}
@@ -76,4 +72,5 @@ public class MathefactAutoComplete extends ListenerAdapter {
 			e.replyChoices(choices).queue();
 		}
 	}
+
 }

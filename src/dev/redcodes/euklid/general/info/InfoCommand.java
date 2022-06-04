@@ -4,6 +4,7 @@ import java.time.Instant;
 
 import dev.redcodes.euklid.Euklid;
 import dev.redcodes.euklid.mathefacts.MathefactUtils;
+import dev.redcodes.euklid.stadtgeschichten.StadtGeschichtenUtils;
 import dev.redcodes.euklid.util.MessageColor;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.entities.Guild;
@@ -40,17 +41,20 @@ public class InfoCommand extends ListenerAdapter {
 			msg.addField("Users", String.valueOf(users), true);
 			msg.addField("Uptime",
 					days + " Tage, " + hours + " Stunden, " + minutes + " Minuten, " + seconds + " Sekunden", true);
-			msg.addField("Mathefacts", String.valueOf(MathefactUtils.countMathefacts()), true);
 			msg.addField("Folgen", String.valueOf(MathefactUtils.countEpisodes()), true);
+			msg.addField("Mathefacts", String.valueOf(MathefactUtils.countMathefacts()), true);
+			msg.addField("Stadtgeschichten", String.valueOf(StadtGeschichtenUtils.getStadtGeschichten().size()), true);
 			msg.addField("Bot-Version", Euklid.getVersion(), true);
 			msg.addBlankField(true);
-			msg.addField("**Hobbylos**", "\n\n• " + e.getJDA().getEmoteById(979039391961989150L).getAsMention()
-					+ " **[Podcast](https://open.spotify.com/show/6UUIXmp1V0fK4ZpK7vzAbQ)**\n• "
-					+ e.getJDA().getEmoteById(979105632928014357L).getAsMention()
-					+ " **[Subreddit](https://www.reddit.com/r/Hobbylos/)**\n• "
-					+ e.getJDA().getEmoteById(979112283156402236L).getAsMention()
-					+ " **[Rezo](https://www.instagram.com/rezo/)** & **[Ju](https://www.instagram.com/julienbam/)**",
-					true);
+			msg.addBlankField(true);
+			msg.addBlankField(true);
+			msg.addField("**Hobbylos**", """
+
+
+					• 🎙 **[Podcast](https://open.spotify.com/show/6UUIXmp1V0fK4ZpK7vzAbQ)**
+					• 📡 **[Subreddit](https://www.reddit.com/r/Hobbylos/)**
+					• 📸 **[Rezo](https://www.instagram.com/rezo/)** & **[Ju](https://www.instagram.com/julienbam/)**
+					""", true);
 			msg.setThumbnail(Euklid.getIconUrl());
 			msg.setImage("https://i.imgur.com/TtfcXg9.png");
 			msg.setColor(MessageColor.BACKGROUND.getColor());

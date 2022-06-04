@@ -1,0 +1,45 @@
+<configuration>
+
+	<property name="HOME_LOG" value="logs/current.log" />
+	<property name="pattern"
+		value="%d{HH:mm:ss.SSS} - [%thread] %-5level %logger{36} - %msg%n" />
+
+	<appender name="STDOUT"
+		class="ch.qos.logback.core.ConsoleAppender">
+
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>INFO</level>
+		</filter>
+
+		<encoder>
+			<pattern>${pattern}
+			</pattern>
+		</encoder>
+	</appender>
+
+
+	<appender name="FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>TRACE</level>
+		</filter>
+		
+		<file>${HOME_LOG}</file>
+
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<fileNamePattern>logs/archived/app-%d{yyyy-MM-dd}-%i.log
+			</fileNamePattern>
+			<maxFileSize>10MB</maxFileSize>
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>${pattern}
+			</pattern>
+		</encoder>
+	</appender>
+	<root>
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE" />
+	</root>
+</configuration>

@@ -14,6 +14,8 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+import dev.redcodes.euklid.Euklid;
+
 public class MathefactUtils {
 
 	public static List<Mathefact> getMathefacts() {
@@ -22,7 +24,7 @@ public class MathefactUtils {
 
 		try {
 
-			URL url = new URL("https://raw.githubusercontent.com/saphrus/mathefacts/main/data.json");
+			URL url = new URL(Euklid.getDataUrl());
 
 			URLConnection connection = url.openConnection();
 
@@ -33,10 +35,10 @@ public class MathefactUtils {
 			JsonArray array = rootObj.get("data").getAsJsonArray();
 
 			Iterator<JsonElement> iterator = array.iterator();
-
+			
 			while (iterator.hasNext()) {
 				JsonObject episode = iterator.next().getAsJsonObject();
-
+				
 				facts.add(new Mathefact(episode.get("folge").getAsString()));
 			}
 
@@ -50,7 +52,7 @@ public class MathefactUtils {
 	public static int countMathefacts() {
 		try {
 
-			URL url = new URL("https://raw.githubusercontent.com/saphrus/mathefacts/main/data.json");
+			URL url = new URL(Euklid.getDataUrl());
 
 			URLConnection connection = url.openConnection();
 
@@ -67,7 +69,7 @@ public class MathefactUtils {
 			while (iterator.hasNext()) {
 				JsonObject episode = iterator.next().getAsJsonObject();
 
-				if (!episode.get("beschreibung").getAsString().equals("")) {
+				if (!episode.get("mathefacts").getAsJsonObject().get("beschreibung").getAsString().equals("")) {
 					amount++;
 				}
 			}
@@ -84,7 +86,7 @@ public class MathefactUtils {
 	public static int countEpisodes() {
 		try {
 
-			URL url = new URL("https://raw.githubusercontent.com/saphrus/mathefacts/main/data.json");
+			URL url = new URL(Euklid.getDataUrl());
 
 			URLConnection connection = url.openConnection();
 

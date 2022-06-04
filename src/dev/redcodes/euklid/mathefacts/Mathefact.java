@@ -12,6 +12,8 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+import dev.redcodes.euklid.Euklid;
+
 public class Mathefact {
 
 	String episodeId;
@@ -30,7 +32,7 @@ public class Mathefact {
 
 			this.episodeId = episodeId;
 
-			URL url = new URL("https://raw.githubusercontent.com/saphrus/mathefacts/main/data.json");
+			URL url = new URL(Euklid.getDataUrl());
 
 			URLConnection connection = url.openConnection();
 
@@ -48,12 +50,14 @@ public class Mathefact {
 				if (episode.get("folge").getAsString().equals(this.episodeId)) {
 
 					this.exists = true;
-					this.episodeName = episode.get("name").getAsString();
-					this.theme = episode.get("faktthema").getAsString();
-					this.description = episode.get("beschreibung").getAsString();
-					this.startTime = episode.get("startzeit").getAsString();
-					this.endTime = episode.get("endzeit").getAsString();
+					this.episodeName = episode.get("folgenname").getAsString();
 					this.spotifyId = episode.get("code").getAsString();
+
+					JsonObject obj = episode.get("mathefacts").getAsJsonObject();
+					this.startTime = obj.get("startzeit").getAsString();
+					this.endTime = obj.get("endzeit").getAsString();
+					this.theme = obj.get("thema").getAsString();
+					this.description = obj.get("beschreibung").getAsString();
 
 					if (this.description.equals("")) {
 						this.empty = true;

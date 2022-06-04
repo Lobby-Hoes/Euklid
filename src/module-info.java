@@ -4,6 +4,6 @@ module Euklid {
 	requires org.slf4j;
 	requires com.google.gson;
 	requires java.string.similarity;
-	requires commons.collections4;
 	requires java.desktop;
+	requires org.apache.commons.collections4;
 }
