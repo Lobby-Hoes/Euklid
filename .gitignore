@@ -116,3 +116,4 @@ buildNumber.properties
 # End of httpswww.toptal.comdevelopersgitignoreapimaven,eclipse,java
 
 **/token
+**/logs
