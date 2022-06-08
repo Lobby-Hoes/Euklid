@@ -61,6 +61,8 @@ public class StadtGeschichtenUtils {
 
 	public static int countStadtGeschichten() {
 
+		int count = 0;
+		
 		try {
 
 			URL url = new URL(Euklid.getStoryDataUrl());
@@ -78,7 +80,9 @@ public class StadtGeschichtenUtils {
 			while (iterator.hasNext()) {
 				JsonObject e = iterator.next().getAsJsonObject();
 
-				return e.get("geschichten").getAsJsonArray().size();
+				
+
+				count += e.get("geschichten").getAsJsonArray().size();
 
 			}
 
@@ -86,7 +90,7 @@ public class StadtGeschichtenUtils {
 			e.printStackTrace();
 		}
 
-		return 0;
+		return count;
 	}
 
 }
