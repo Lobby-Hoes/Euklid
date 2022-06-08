@@ -47,10 +47,32 @@ public class MathefactUtils {
 			}
 
 		} catch (IOException e) {
-
+			e.printStackTrace();
 		}
 
 		return facts;
+	}
+
+	public static int countMathefacts() {
+		try {
+
+			URL url = new URL(Euklid.getMathefactDataUrl());
+
+			URLConnection connection = url.openConnection();
+
+			connection.connect();
+
+			JsonElement element = JsonParser.parseReader(new InputStreamReader((InputStream) connection.getContent()));
+			JsonObject rootObj = element.getAsJsonObject();
+			JsonArray array = rootObj.get("data").getAsJsonArray();
+
+			return array.size();
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return 0;
 	}
 
 }

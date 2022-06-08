@@ -59,4 +59,34 @@ public class StadtGeschichtenUtils {
 		return storys;
 	}
 
+	public static int countStadtGeschichten() {
+
+		try {
+
+			URL url = new URL(Euklid.getStoryDataUrl());
+
+			URLConnection connection = url.openConnection();
+
+			connection.connect();
+
+			JsonElement element = JsonParser.parseReader(new InputStreamReader((InputStream) connection.getContent()));
+			JsonObject rootObj = element.getAsJsonObject();
+			JsonArray array = rootObj.get("data").getAsJsonArray();
+
+			Iterator<JsonElement> iterator = array.iterator();
+
+			while (iterator.hasNext()) {
+				JsonObject e = iterator.next().getAsJsonObject();
+
+				return e.get("geschichten").getAsJsonArray().size();
+
+			}
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+		return 0;
+	}
+
 }

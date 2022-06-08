@@ -42,9 +42,9 @@ public class InfoCommand extends ListenerAdapter {
 			msg.addField("Users", String.valueOf(users), true);
 			msg.addField("Uptime",
 					days + " Tage, " + hours + " Stunden, " + minutes + " Minuten, " + seconds + " Sekunden", true);
-			msg.addField("Folgen", String.valueOf(EpisodeUtils.getEpisodes().size()), true);
-			msg.addField("Mathefacts", String.valueOf(MathefactUtils.getMathefacts().size()), true);
-			msg.addField("Stadtgeschichten", String.valueOf(StadtGeschichtenUtils.getStadtGeschichten().size()), true);
+			msg.addField("Folgen", String.valueOf(EpisodeUtils.countEpisodes()), true);
+			msg.addField("Mathefacts", String.valueOf(MathefactUtils.countMathefacts()), true);
+			msg.addField("Stadtgeschichten", String.valueOf(StadtGeschichtenUtils.countStadtGeschichten()), true);
 			msg.addField("Bot-Version", Euklid.getVersion(), true);
 			msg.addBlankField(true);
 			msg.addBlankField(true);

@@ -48,5 +48,27 @@ public class EpisodeUtils {
 
 		return list;
 	}
+	
+	public static int countEpisodes() {
+		try {
+
+			URL url = new URL(Euklid.getEpisodeDataUrl());
+
+			URLConnection connection = url.openConnection();
+
+			connection.connect();
+
+			JsonElement element = JsonParser.parseReader(new InputStreamReader((InputStream) connection.getContent()));
+			JsonObject rootObj = element.getAsJsonObject();
+			JsonArray array = rootObj.get("data").getAsJsonArray();
+
+			return array.size();
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		return 0;
+	}
 
 }
