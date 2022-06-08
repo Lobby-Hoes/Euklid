@@ -13,26 +13,24 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 import dev.redcodes.euklid.Euklid;
+import dev.redcodes.euklid.episode.Episode;
 
 public class Mathefact {
 
-	String episodeId;
-	String episodeName;
+	Episode episode;
 	String theme;
 	String description;
 	String startTime;
 	String endTime;
-	String spotifyId;
-	boolean empty;
 	boolean exists;
 
-	public Mathefact(String episodeId) {
+	public Mathefact(Episode episode) {
 
 		try {
 
-			this.episodeId = episodeId;
+			this.episode = episode;
 
-			URL url = new URL(Euklid.getDataUrl());
+			URL url = new URL(Euklid.getMathefactDataUrl());
 
 			URLConnection connection = url.openConnection();
 
@@ -45,23 +43,16 @@ public class Mathefact {
 			Iterator<JsonElement> iterator = array.iterator();
 
 			while (iterator.hasNext()) {
-				JsonObject episode = iterator.next().getAsJsonObject();
+				JsonObject e = iterator.next().getAsJsonObject();
 
-				if (episode.get("folge").getAsString().equals(this.episodeId)) {
+				if (e.get("folgenId").getAsInt() == this.episode.getId()) {
 
 					this.exists = true;
-					this.episodeName = episode.get("folgenname").getAsString();
-					this.spotifyId = episode.get("code").getAsString();
 
-					JsonObject obj = episode.get("mathefacts").getAsJsonObject();
-					this.startTime = obj.get("startzeit").getAsString();
-					this.endTime = obj.get("endzeit").getAsString();
-					this.theme = obj.get("thema").getAsString();
-					this.description = obj.get("beschreibung").getAsString();
-
-					if (this.description.equals("")) {
-						this.empty = true;
-					}
+					this.startTime = e.get("startzeit").getAsString();
+					this.endTime = e.get("endzeit").getAsString();
+					this.theme = e.get("thema").getAsString();
+					this.description = e.get("beschreibung").getAsString();
 
 					return;
 				}
@@ -71,14 +62,6 @@ public class Mathefact {
 			ex.printStackTrace();
 		}
 
-	}
-
-	public String getEpisodeId() {
-		return this.episodeId;
-	}
-
-	public String getEpisodeName() {
-		return this.episodeName;
 	}
 
 	public String getTheme() {
@@ -97,16 +80,12 @@ public class Mathefact {
 		return this.endTime;
 	}
 
-	public boolean isEmpty() {
-		return this.empty;
-	}
-
-	public String getSpotifyId() {
-		return this.spotifyId;
-	}
-
 	public boolean exists() {
 		return this.exists;
+	}
+
+	public Episode getEpisode() {
+		return this.episode;
 	}
 
 }

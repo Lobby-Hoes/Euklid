@@ -9,7 +9,6 @@ import java.util.Map.Entry;
 import org.apache.commons.collections4.MultiValuedMap;
 import org.apache.commons.collections4.multimap.ArrayListValuedHashMap;
 
-import dev.redcodes.euklid.mathefacts.Mathefact;
 import dev.redcodes.euklid.stadtgeschichten.StadtGeschichte;
 import dev.redcodes.euklid.stadtgeschichten.StadtGeschichtenUtils;
 import info.debatty.java.stringsimilarity.NGram;
@@ -32,13 +31,16 @@ public class StadtGeschichteAutoComplete extends ListenerAdapter {
 			MultiValuedMap<StadtGeschichte, Double> rawMatches = new ArrayListValuedHashMap<>();
 
 			for (StadtGeschichte story : StadtGeschichtenUtils.getStadtGeschichten()) {
+
 				double episodeDistance = ng.distance(input, story.getTitle());
-				double themeDistance = ng.distance(input, new Mathefact(story.getEpisode()).getEpisodeName());
+				double cityDistance = ng.distance(input, story.getLocation());
+				double nameDistance = ng.distance(input, story.getEpisode().getName());
 
 				rawMatches.put(story, episodeDistance);
-				rawMatches.put(story, themeDistance);
+				rawMatches.put(story, cityDistance);
+				rawMatches.put(story, nameDistance);
 
-				if (input.equals(story.getEpisode())) {
+				if (input.equals(String.valueOf(story.getEpisode().getId()))) {
 					rawMatches.put(story, 0.1d);
 				}
 			}
@@ -63,8 +65,8 @@ public class StadtGeschichteAutoComplete extends ListenerAdapter {
 			for (Entry<StadtGeschichte, Double> entry : matches.entrySet()) {
 				if (choices.size() < 25) {
 					Choice choice = new Choice(
-							"Folge " + entry.getKey().getEpisode() + " - " + entry.getKey().getTitle(),
-							entry.getKey().getEpisode() + "_" + entry.getKey().getTitle());
+							"Folge " + entry.getKey().getEpisode().getId() + " - " + entry.getKey().getTitle(),
+							entry.getKey().getEpisode().getId() + "_" + entry.getKey().getTitle());
 					choices.add(choice);
 				}
 			}

@@ -32,15 +32,15 @@ public class MathefactAutoComplete extends ListenerAdapter {
 			MultiValuedMap<Mathefact, Double> rawMatches = new ArrayListValuedHashMap<>();
 
 			for (Mathefact fact : MathefactUtils.getMathefacts()) {
-				if (!fact.isEmpty()) {
+				if (fact.exists()) {
 
-					double episodeDistance = ng.distance(input, fact.getEpisodeName());
+					double episodeDistance = ng.distance(input, fact.getEpisode().getName());
 					double themeDistance = ng.distance(input, fact.getTheme());
 
 					rawMatches.put(fact, episodeDistance);
 					rawMatches.put(fact, themeDistance);
 
-					if (input.equals(fact.getEpisodeId())) {
+					if (input.equals(String.valueOf(fact.getEpisode().getId()))) {
 						rawMatches.put(fact, 0.1d);
 					}
 
@@ -67,8 +67,8 @@ public class MathefactAutoComplete extends ListenerAdapter {
 			for (Entry<Mathefact, Double> entry : matches.entrySet()) {
 				if (choices.size() < 25) {
 					Choice choice = new Choice(
-							"Folge " + entry.getKey().getEpisodeId() + " - " + entry.getKey().getTheme(),
-							entry.getKey().getEpisodeId());
+							"Folge " + entry.getKey().getEpisode().getId() + " - " + entry.getKey().getTheme(),
+							entry.getKey().getEpisode().getId());
 					choices.add(choice);
 				}
 			}

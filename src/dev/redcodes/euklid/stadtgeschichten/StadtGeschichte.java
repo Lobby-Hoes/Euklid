@@ -13,6 +13,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 import dev.redcodes.euklid.Euklid;
+import dev.redcodes.euklid.episode.Episode;
 
 public class StadtGeschichte {
 
@@ -22,18 +23,18 @@ public class StadtGeschichte {
 	StadtGeschichtenTyp type;
 	double lat;
 	double lon;
-	String episode;
+	Episode episode;
 	boolean exists;
 	String startTime;
 	String endTime;
 
-	public StadtGeschichte(String episode, String title) {
+	public StadtGeschichte(Episode episode, String title) {
 		this.episode = episode;
 		this.title = title;
 
 		try {
 
-			URL url = new URL(Euklid.getDataUrl());
+			URL url = new URL(Euklid.getStoryDataUrl());
 
 			URLConnection connection = url.openConnection();
 
@@ -48,18 +49,19 @@ public class StadtGeschichte {
 			while (iterator.hasNext()) {
 				JsonObject ep = iterator.next().getAsJsonObject();
 
-				if (ep.get("folge").getAsString().equals(this.episode) && ep.has("staedtegeschichten")) {
-					JsonObject storys = ep.get("staedtegeschichten").getAsJsonObject();
-					this.startTime = storys.get("startzeit").getAsString();
-					this.endTime = storys.get("endzeit").getAsString();
+				if (ep.get("folgenId").getAsInt() == this.episode.getId()) {
 
-					Iterator<JsonElement> storyIterator = storys.get("geschichten").getAsJsonArray().iterator();
+					this.exists = true;
+
+					this.startTime = ep.get("startzeit").getAsString();
+					this.endTime = ep.get("endzeit").getAsString();
+
+					Iterator<JsonElement> storyIterator = ep.get("geschichten").getAsJsonArray().iterator();
 
 					while (storyIterator.hasNext()) {
 						JsonObject storyObj = storyIterator.next().getAsJsonObject();
 
 						if (storyObj.get("titel").getAsString().equals(this.title)) {
-							this.exists = true;
 							this.location = storyObj.get("ort").getAsString();
 							this.story = storyObj.get("geschichte").getAsString();
 							this.type = StadtGeschichtenTyp.valueOf(storyObj.get("typ").getAsString().toUpperCase());
@@ -99,18 +101,18 @@ public class StadtGeschichte {
 		return lon;
 	}
 
-	public String getEpisode() {
+	public Episode getEpisode() {
 		return episode;
 	}
 
 	public boolean exists() {
 		return exists;
 	}
-	
+
 	public String getStartTime() {
 		return this.startTime;
 	}
-	
+
 	public String getEndTime() {
 		return this.endTime;
 	}

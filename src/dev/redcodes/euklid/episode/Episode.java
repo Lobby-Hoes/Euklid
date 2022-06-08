@@ -1,4 +1,4 @@
-package dev.redcodes.euklid.mathefacts;
+package dev.redcodes.euklid.episode;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,8 +6,6 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -15,17 +13,19 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 import dev.redcodes.euklid.Euklid;
-import dev.redcodes.euklid.episode.Episode;
 
-public class MathefactUtils {
+public class Episode {
 
-	public static List<Mathefact> getMathefacts() {
+	int id;
+	String name;
+	String code;
 
-		List<Mathefact> facts = new LinkedList<>();
+	public Episode(int id) {
+		this.id = id;
 
 		try {
 
-			URL url = new URL(Euklid.getMathefactDataUrl());
+			URL url = new URL(Euklid.getEpisodeDataUrl());
 
 			URLConnection connection = url.openConnection();
 
@@ -40,17 +40,29 @@ public class MathefactUtils {
 			while (iterator.hasNext()) {
 				JsonObject episode = iterator.next().getAsJsonObject();
 
-				Mathefact fact = new Mathefact(new Episode(episode.get("folgenId").getAsInt()));
-				if (fact.exists()) {
-					facts.add(fact);
+				if (episode.get("folgenId").getAsInt() == this.id) {
+					this.name = episode.get("folgenname").getAsString();
+					this.code = episode.get("code").getAsString();
 				}
 			}
 
-		} catch (IOException e) {
-
+		} catch (IOException ex) {
+			ex.printStackTrace();
 		}
-
-		return facts;
 	}
+
+	public int getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getCode() {
+		return code;
+	}
+	
+	
 
 }

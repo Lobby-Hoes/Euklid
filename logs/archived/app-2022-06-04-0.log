@@ -1,0 +1,677 @@
+13:00:17.689 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716029f68fa09b8f-FRA]
+13:00:17.847 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+13:00:17.867 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+13:00:17.867 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+13:00:17.867 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+13:00:17.868 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+13:00:18.115 - [JDA MainWS-WriteThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+13:00:18.115 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+13:00:18.115 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+13:00:18.121 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+13:00:18.358 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+13:00:18.358 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+13:00:18.413 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+13:00:18.417 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+13:00:18.419 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+13:00:18.420 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+13:00:18.421 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+13:00:18.421 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+13:00:18.434 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+13:00:18.435 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+13:00:18.436 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+13:00:19.885 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654340419880,"status":"online"}}
+13:00:20.093 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:00:20.093 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602a0599e29b8f-FRA]
+13:00:20.100 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+13:00:20.110 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:00:20.110 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602a0599e39b8f-FRA]
+13:00:25.830 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602a286f569b8f-FRA]
+13:00:26.060 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PATCH/webhooks/{application_id}/{interaction_token}/messages/{message_id} -> 3cd1f278bd0ecaf11e0d2391374c011d
+13:00:26.060 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602a2add099b8f-FRA]
+13:00:31.869 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602a4f9ed59b8f-FRA]
+13:00:33.133 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602a577f5a9b8f-FRA]
+13:00:34.923 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"188 Users","type":3}],"afk":false,"since":1654340434868,"status":"online"}}
+13:00:35.033 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602a625f689b8f-FRA]
+13:00:37.079 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602a6f4f789b8f-FRA]
+13:00:37.388 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602a715c9b9b8f-FRA]
+13:00:47.148 - [JDA RateLimit-Worker 5] DEBUG n.d.j.internal.requests.RateLimiter - Removed 11 expired buckets
+13:00:50.184 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654340449874,"status":"online"}}
+13:00:55.500 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 2 expired buckets
+13:00:55.500 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+13:01:20.399 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602b7eafd39b52-FRA]
+13:01:20.550 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+13:01:20.569 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+13:01:20.570 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+13:01:20.570 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+13:01:20.570 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+13:01:20.814 - [JDA MainWS-WriteThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+13:01:20.815 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+13:01:20.815 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+13:01:20.821 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+13:01:21.005 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+13:01:21.005 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+13:01:21.060 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+13:01:21.064 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+13:01:21.068 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+13:01:21.068 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+13:01:21.082 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+13:01:21.083 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+13:01:21.085 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+13:01:21.086 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+13:01:21.087 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+13:01:22.585 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654340482581,"status":"online"}}
+13:01:22.759 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:01:22.759 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602b8d8c4b9b52-FRA]
+13:01:22.794 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:01:22.794 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602b8d8c459b52-FRA]
+13:01:22.798 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+13:01:26.097 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602ba17ca19b52-FRA]
+13:01:26.778 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PATCH/webhooks/{application_id}/{interaction_token}/messages/{message_id} -> 3cd1f278bd0ecaf11e0d2391374c011d
+13:01:26.779 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602ba55c799b52-FRA]
+13:01:35.729 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 8 expired buckets
+13:01:35.730 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+13:01:38.911 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602bf28d146969-FRA]
+13:01:39.066 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+13:01:39.087 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+13:01:39.088 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+13:01:39.088 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+13:01:39.088 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+13:01:39.315 - [JDA MainWS-WriteThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+13:01:39.315 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+13:01:39.315 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+13:01:39.320 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+13:01:39.569 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+13:01:39.569 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+13:01:39.623 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+13:01:39.627 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+13:01:39.661 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+13:01:39.661 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+13:01:39.692 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+13:01:39.693 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+13:01:39.695 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+13:01:39.696 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+13:01:39.697 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+13:01:41.113 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654340501100,"status":"online"}}
+13:01:41.262 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:01:41.262 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602c0139606969-FRA]
+13:01:41.273 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:01:41.273 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602c01395c6969-FRA]
+13:01:41.277 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+13:01:41.598 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602c034cb16969-FRA]
+13:01:42.924 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602c0b5b776969-FRA]
+13:01:48.117 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602c2c1ea66969-FRA]
+13:01:49.846 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602c34ee6e6969-FRA]
+13:01:50.137 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PATCH/webhooks/{application_id}/{interaction_token}/messages/{message_id} -> 3cd1f278bd0ecaf11e0d2391374c011d
+13:01:50.138 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71602c384ca16969-FRA]
+13:01:56.392 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654340516100,"status":"online"}}
+13:02:08.496 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Removed 9 expired buckets
+13:02:11.147 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654340531100,"status":"online"}}
+13:02:12.434 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 2 expired buckets
+13:02:12.435 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+13:36:50.180 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71605f7dca729960-FRA]
+13:36:50.358 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+13:36:50.379 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+13:36:50.379 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+13:36:50.380 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+13:36:50.380 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+13:36:50.644 - [JDA MainWS-ReadThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+13:36:50.644 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+13:36:50.644 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+13:36:50.668 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+13:36:50.895 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+13:36:50.896 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+13:36:50.946 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+13:36:50.950 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+13:36:50.965 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+13:36:50.966 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+13:36:50.968 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+13:36:50.968 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+13:36:51.089 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+13:36:51.090 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+13:36:51.091 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 1
+13:36:52.576 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:36:52.577 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71605f8cc80a9960-FRA]
+13:36:52.607 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:36:52.607 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71605f8cc8089960-FRA]
+13:36:52.611 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+13:36:52.894 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"188 Users","type":3}],"afk":false,"since":1654342612393,"status":"online"}}
+13:36:56.870 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Unrecognized event:
+{"op":0,"s":9,"t":"GUILD_APPLICATION_COMMAND_INDEX_UPDATE","d":{"hashes":{"metadata":{"hash":"r2MGMN5XoaI"},"channels":{"hash":"WDU0gnaOg8g"},"roles":{"hash":"V9QHQDtuLuI"},"version":1},"application_command_counts":{"1":52,"2":1,"3":1},"guild_id":"580732235313971211","guild_hashes":{"metadata":{"hash":"r2MGMN5XoaI"},"channels":{"hash":"WDU0gnaOg8g"},"roles":{"hash":"V9QHQDtuLuI"},"version":1}}}
+13:36:59.535 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71605fb86ca69960-FRA]
+13:37:01.869 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71605fc6ca699960-FRA]
+13:37:02.784 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71605fcc9d929960-FRA]
+13:37:03.902 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71605fd389b49960-FRA]
+13:37:05.337 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71605fdc5abd9960-FRA]
+13:37:06.330 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71605fe2bf269960-FRA]
+13:37:07.434 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654342627381,"status":"online"}}
+13:37:19.720 - [JDA RateLimit-Worker 5] DEBUG n.d.j.internal.requests.RateLimiter - Removed 9 expired buckets
+13:37:22.708 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654342642384,"status":"online"}}
+13:37:37.510 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654342657386,"status":"online"}}
+13:37:52.790 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"188 Users","type":3}],"afk":false,"since":1654342672389,"status":"online"}}
+13:38:07.607 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654342687391,"status":"online"}}
+13:38:19.724 - [JDA RateLimit-Worker 5] DEBUG n.d.j.internal.requests.RateLimiter - Removed 2 expired buckets
+13:38:22.895 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"188 Users","type":3}],"afk":false,"since":1654342702402,"status":"online"}}
+13:38:28.788 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+13:38:31.758 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716061f8afdb912b-FRA]
+13:38:31.913 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+13:38:31.934 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+13:38:31.935 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+13:38:31.935 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+13:38:31.935 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+13:38:32.196 - [JDA MainWS-WriteThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+13:38:32.196 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+13:38:32.197 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+13:38:32.202 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+13:38:32.475 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+13:38:32.475 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+13:38:32.526 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+13:38:32.530 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+13:38:32.548 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+13:38:32.549 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+13:38:32.551 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+13:38:32.552 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+13:38:32.554 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+13:38:32.555 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+13:38:32.556 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+13:38:34.123 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:38:34.123 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716062077f49912b-FRA]
+13:38:34.135 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:38:34.135 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716062077f48912b-FRA]
+13:38:34.140 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+13:38:34.454 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"188 Users","type":3}],"afk":false,"since":1654342713949,"status":"online"}}
+13:38:37.442 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [7160621c5df4912b-FRA]
+13:38:38.594 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716062237d6a912b-FRA]
+13:38:39.411 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716062286952912b-FRA]
+13:38:40.564 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [7160622fd972912b-FRA]
+13:38:43.240 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 9 expired buckets
+13:38:43.241 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+13:39:32.407 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606373bcff6934-FRA]
+13:39:32.605 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+13:39:32.625 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+13:39:32.626 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+13:39:32.626 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+13:39:32.626 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+13:39:32.850 - [JDA MainWS-ReadThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+13:39:32.850 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+13:39:32.850 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+13:39:32.868 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+13:39:33.127 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+13:39:33.127 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+13:39:33.175 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+13:39:33.179 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+13:39:33.195 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+13:39:33.196 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+13:39:33.198 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+13:39:33.198 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+13:39:33.199 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+13:39:33.200 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+13:39:33.201 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+13:39:34.824 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:39:34.825 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606382c9f96934-FRA]
+13:39:34.852 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:39:34.852 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606382c9fc6934-FRA]
+13:39:34.856 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+13:39:35.142 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654342774638,"status":"online"}}
+13:39:35.469 - [JDA MainWS-ReadThread] INFO  d.r.e.s.c.StadtGeschichteAutoComplete - input
+13:39:35.794 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606388ee286934-FRA]
+13:39:36.020 - [JDA MainWS-ReadThread] INFO  d.r.e.s.c.StadtGeschichteAutoComplete - input
+13:39:36.278 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [7160638baaf26934-FRA]
+13:39:37.085 - [JDA MainWS-ReadThread] INFO  d.r.e.s.c.StadtGeschichteAutoComplete - input
+13:39:37.278 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716063924f9f6934-FRA]
+13:39:38.161 - [JDA MainWS-ReadThread] INFO  d.r.e.s.c.StadtGeschichteAutoComplete - input
+13:39:38.376 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716063992cb26934-FRA]
+13:39:39.084 - [JDA MainWS-ReadThread] INFO  d.r.e.s.c.StadtGeschichteAutoComplete - input
+13:39:39.284 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [7160639ebfb76934-FRA]
+13:39:40.112 - [JDA MainWS-ReadThread] INFO  d.r.e.s.c.StadtGeschichteAutoComplete - input
+13:39:40.297 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716063a52ba06934-FRA]
+13:39:41.648 - [JDA MainWS-ReadThread] INFO  d.r.e.s.c.StadtGeschichteAutoComplete - input
+13:39:41.872 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716063aece7c6934-FRA]
+13:39:46.210 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 12 expired buckets
+13:39:46.211 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+13:40:10.610 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606461df689b4b-FRA]
+13:40:10.757 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+13:40:10.777 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+13:40:10.777 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+13:40:10.777 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+13:40:10.778 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+13:40:11.028 - [JDA MainWS-WriteThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+13:40:11.029 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+13:40:11.029 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+13:40:11.034 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+13:40:11.274 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+13:40:11.274 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+13:40:11.327 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+13:40:11.331 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+13:40:11.346 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+13:40:11.347 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+13:40:11.351 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+13:40:11.351 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+13:40:11.353 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+13:40:11.354 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+13:40:11.356 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+13:40:12.789 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654342812787,"status":"online"}}
+13:40:12.798 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716064703af09b4b-FRA]
+13:40:12.973 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:40:12.974 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716064713cfb9b4b-FRA]
+13:40:12.980 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+13:40:12.993 - [JDA RateLimit-Worker 3] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:40:12.994 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716064714d189b4b-FRA]
+13:40:13.136 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716064725f249b4b-FRA]
+13:40:14.022 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [7160647788639b4b-FRA]
+13:40:14.780 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [7160647c98d39b4b-FRA]
+13:40:15.321 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606480084d9b4b-FRA]
+13:40:17.135 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 10 expired buckets
+13:40:17.136 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+13:44:22.879 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606a8b0a8792b9-FRA]
+13:44:23.098 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+13:44:23.131 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+13:44:23.131 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+13:44:23.131 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+13:44:23.132 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+13:44:23.364 - [JDA MainWS-ReadThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+13:44:23.364 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+13:44:23.365 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+13:44:23.388 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+13:44:23.699 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+13:44:23.699 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+13:44:23.760 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+13:44:23.764 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+13:44:23.784 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+13:44:23.785 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+13:44:23.788 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+13:44:23.789 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+13:44:23.791 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+13:44:23.792 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+13:44:23.794 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+13:44:25.326 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:44:25.326 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606a9a7d7992b9-FRA]
+13:44:25.333 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+13:44:25.333 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:44:25.333 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606a9a7d7d92b9-FRA]
+13:44:25.653 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654343065146,"status":"online"}}
+13:44:33.043 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606acabf6192b9-FRA]
+13:44:35.614 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606adada0792b9-FRA]
+13:44:37.658 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606ae78e4792b9-FRA]
+13:44:40.186 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"188 Users","type":3}],"afk":false,"since":1654343080134,"status":"online"}}
+13:44:44.914 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 8 expired buckets
+13:44:44.915 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+13:44:48.087 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606b285dd09954-FRA]
+13:44:48.244 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+13:44:48.264 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+13:44:48.265 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+13:44:48.265 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+13:44:48.265 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+13:44:48.504 - [JDA MainWS-ReadThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+13:44:48.505 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+13:44:48.505 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+13:44:48.520 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+13:44:48.715 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+13:44:48.715 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+13:44:48.765 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+13:44:48.769 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+13:44:48.773 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+13:44:48.773 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+13:44:48.789 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+13:44:48.789 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+13:44:48.791 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+13:44:48.792 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+13:44:48.793 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+13:44:50.282 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654343090279,"status":"online"}}
+13:44:50.441 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:44:50.442 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606b379d749954-FRA]
+13:44:50.449 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:44:50.449 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606b379d729954-FRA]
+13:44:50.456 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+13:44:51.266 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606b3c7f5b9954-FRA]
+13:44:52.406 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606b43ad969954-FRA]
+13:44:54.493 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606b50cefe9954-FRA]
+13:44:55.723 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606b587d2e9954-FRA]
+13:44:56.420 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606b5ccdf59954-FRA]
+13:44:57.362 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606b62c9019954-FRA]
+13:44:58.275 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71606b685b959954-FRA]
+13:45:05.311 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"188 Users","type":3}],"afk":false,"since":1654343105266,"status":"online"}}
+13:45:17.607 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Removed 10 expired buckets
+13:45:18.793 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 2 expired buckets
+13:45:18.794 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+13:52:59.624 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607728ac2b91db-FRA]
+13:52:59.797 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+13:52:59.822 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+13:52:59.823 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+13:52:59.823 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+13:52:59.823 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+13:53:00.073 - [JDA MainWS-ReadThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+13:53:00.074 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+13:53:00.074 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+13:53:00.098 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+13:53:00.347 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+13:53:00.348 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+13:53:00.412 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+13:53:00.415 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+13:53:00.435 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+13:53:00.437 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+13:53:00.439 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+13:53:00.439 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+13:53:00.441 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+13:53:00.442 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+13:53:00.443 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+13:53:02.001 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:53:02.001 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607737ca3691db-FRA]
+13:53:02.009 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+13:53:02.013 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:53:02.013 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607737ca3991db-FRA]
+13:53:02.342 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"188 Users","type":3}],"afk":false,"since":1654343581838,"status":"online"}}
+13:53:10.322 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [7160776bbea791db-FRA]
+13:53:12.359 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716077788e7891db-FRA]
+13:53:14.092 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716077834b3d91db-FRA]
+13:53:15.558 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [7160778aec5091db-FRA]
+13:53:15.626 - [JDA MainWS-ReadThread] ERROR net.dv8tion.jda.api.JDA - One of the EventListeners had an uncaught exception
+java.lang.IllegalArgumentException: Value cannot be longer than 1024 characters.
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.api.entities.MessageEmbed$Field.<init>(MessageEmbed.java:986)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.api.entities.MessageEmbed$Field.<init>(MessageEmbed.java:1008)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.api.EmbedBuilder.addField(EmbedBuilder.java:757)
+	at Euklid/dev.redcodes.euklid.stadtgeschichten.commands.StadtGeschichteCommand.onSlashCommandInteraction(StadtGeschichteCommand.java:38)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:361)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:164)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleCommand(InteractionCreateHandler.java:109)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleInternally(InteractionCreateHandler.java:80)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:957)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:844)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:822)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:996)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+13:53:16.884 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654343596824,"status":"online"}}
+13:53:20.486 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 9 expired buckets
+13:53:20.487 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+13:54:03.996 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716078baf8da9b70-FRA]
+13:54:04.176 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+13:54:04.201 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+13:54:04.201 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+13:54:04.202 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+13:54:04.202 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+13:54:04.435 - [JDA MainWS-ReadThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+13:54:04.435 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+13:54:04.435 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+13:54:04.454 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+13:54:04.705 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+13:54:04.706 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+13:54:04.762 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+13:54:04.767 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+13:54:04.785 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+13:54:04.787 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+13:54:04.789 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+13:54:04.789 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+13:54:04.791 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+13:54:04.792 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+13:54:04.793 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+13:54:05.584 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716078c519b19b70-FRA]
+13:54:06.390 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:54:06.390 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716078ca1f3b9b70-FRA]
+13:54:06.396 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+13:54:06.397 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:54:06.397 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716078ca3f749b70-FRA]
+13:54:06.722 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"188 Users","type":3}],"afk":false,"since":1654343646217,"status":"online"}}
+13:54:07.710 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716078d26bc89b70-FRA]
+13:54:08.459 - [JDA RateLimit-Worker 5] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716078d7182d9b70-FRA]
+13:54:08.766 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716078d85b399b70-FRA]
+13:54:08.767 - [JDA MainWS-ReadThread] ERROR net.dv8tion.jda.api.JDA - One of the EventListeners had an uncaught exception
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at Euklid/dev.redcodes.euklid.stadtgeschichten.commands.StadtGeschichteCommand.onSlashCommandInteraction(StadtGeschichteCommand.java:28)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:361)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.hooks.EventManagerProxy.handleInternally(EventManagerProxy.java:88)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:70)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:164)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleCommand(InteractionCreateHandler.java:109)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.handle.InteractionCreateHandler.handleInternally(InteractionCreateHandler.java:80)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:957)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:844)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:822)
+	at net.dv8tion.jda@5.0.0-alpha.12/net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:996)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+13:54:21.246 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654343661203,"status":"online"}}
+13:54:33.508 - [JDA RateLimit-Worker 3] DEBUG n.d.j.internal.requests.RateLimiter - Removed 7 expired buckets
+13:54:36.547 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654343676206,"status":"online"}}
+13:54:51.340 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"188 Users","type":3}],"afk":false,"since":1654343691217,"status":"online"}}
+13:55:06.676 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654343706228,"status":"online"}}
+13:55:20.720 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 2 expired buckets
+13:55:20.721 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+13:55:24.018 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607aaeb9469b8c-FRA]
+13:55:24.181 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+13:55:24.204 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+13:55:24.204 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+13:55:24.205 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+13:55:24.205 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+13:55:24.452 - [JDA MainWS-WriteThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+13:55:24.452 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+13:55:24.452 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+13:55:24.462 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+13:55:24.683 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+13:55:24.684 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+13:55:24.740 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+13:55:24.744 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+13:55:24.747 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+13:55:24.747 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+13:55:24.762 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+13:55:24.763 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+13:55:24.764 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+13:55:24.765 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+13:55:24.766 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+13:55:26.191 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607abbd92e9b8c-FRA]
+13:55:26.218 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654343726216,"status":"online"}}
+13:55:26.407 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:55:26.407 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607abe3e9c9b8c-FRA]
+13:55:26.413 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+13:55:26.418 - [JDA RateLimit-Worker 4] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:55:26.419 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607abe3e9f9b8c-FRA]
+13:55:26.431 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PATCH/webhooks/{application_id}/{interaction_token}/messages/{message_id} -> 3cd1f278bd0ecaf11e0d2391374c011d
+13:55:26.432 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607abe1e659b8c-FRA]
+13:55:28.029 - [JDA RateLimit-Worker 5] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607ac84be39b8c-FRA]
+13:55:28.902 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607acdd8c79b8c-FRA]
+13:55:29.864 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607ad3ae2f9b8c-FRA]
+13:55:30.718 - [JDA RateLimit-Worker 5] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607ad8da1e9b8c-FRA]
+13:55:32.504 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607ae19c3d9b8c-FRA]
+13:55:33.016 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607ae5cde29b8c-FRA]
+13:55:41.257 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654343741206,"status":"online"}}
+13:55:46.433 - [JDA RateLimit-Worker 5] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607b3b6ec29b28-FRA]
+13:55:48.773 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607b48fc7e9b28-FRA]
+13:55:49.087 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607b4b7a119b28-FRA]
+13:55:53.468 - [JDA RateLimit-Worker 3] DEBUG n.d.j.internal.requests.RateLimiter - Removed 15 expired buckets
+13:55:56.260 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607b78bfc19b28-FRA]
+13:55:56.593 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654343756222,"status":"online"}}
+13:55:58.495 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607b85a9889b28-FRA]
+13:55:58.751 - [JDA RateLimit-Worker 5] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607b883eb09b28-FRA]
+13:56:11.630 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"188 Users","type":3}],"afk":false,"since":1654343771221,"status":"online"}}
+13:56:13.500 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 5 expired buckets
+13:56:13.500 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+13:58:54.878 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607fd51aee9b98-FRA]
+13:58:55.046 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+13:58:55.068 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+13:58:55.069 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+13:58:55.070 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+13:58:55.070 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+13:58:55.314 - [JDA MainWS-WriteThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+13:58:55.315 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+13:58:55.315 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+13:58:55.327 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+13:58:55.562 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+13:58:55.563 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+13:58:55.636 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+13:58:55.643 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+13:58:55.646 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+13:58:55.646 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+13:58:55.668 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+13:58:55.669 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+13:58:55.672 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+13:58:55.673 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+13:58:55.674 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+13:58:57.093 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654343937083,"status":"online"}}
+13:58:57.252 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:58:57.252 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607fe40bab9b98-FRA]
+13:58:57.259 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+13:58:57.274 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+13:58:57.274 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607fe40baf9b98-FRA]
+13:58:57.447 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607fe52eb29b98-FRA]
+13:59:00.705 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607ff80a1b9b98-FRA]
+13:59:01.055 - [JDA RateLimit-Worker 5] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PATCH/webhooks/{application_id}/{interaction_token}/messages/{message_id} -> 3cd1f278bd0ecaf11e0d2391374c011d
+13:59:01.055 - [JDA RateLimit-Worker 5] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71607ffb39229b98-FRA]
+13:59:12.121 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654343952072,"status":"online"}}
+13:59:24.390 - [JDA RateLimit-Worker 4] DEBUG n.d.j.internal.requests.RateLimiter - Removed 7 expired buckets
+13:59:27.440 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654343967086,"status":"online"}}
+13:59:42.217 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654343982093,"status":"online"}}
+13:59:57.498 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654343997098,"status":"online"}}
+14:00:12.271 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654344012102,"status":"online"}}
+14:00:16.557 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 2 expired buckets
+14:00:16.559 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+14:01:21.109 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716083670f46993f-FRA]
+14:01:21.277 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+14:01:21.299 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+14:01:21.299 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+14:01:21.300 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+14:01:21.300 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+14:01:21.546 - [JDA MainWS-WriteThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+14:01:21.546 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+14:01:21.546 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+14:01:21.558 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+14:01:21.775 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+14:01:21.775 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+14:01:21.832 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+14:01:21.837 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+14:01:21.841 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+14:01:21.841 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+14:01:21.843 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+14:01:21.843 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+14:01:21.859 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+14:01:21.860 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+14:01:21.861 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+14:01:23.485 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+14:01:23.485 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71608375fc62993f-FRA]
+14:01:23.540 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+14:01:23.540 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71608375fc61993f-FRA]
+14:01:23.545 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+14:01:23.824 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654344083316,"status":"online"}}
+14:01:26.446 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [71608387f8d9993f-FRA]
+14:01:26.909 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PATCH/webhooks/{application_id}/{interaction_token}/messages/{message_id} -> 3cd1f278bd0ecaf11e0d2391374c011d
+14:01:26.909 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [7160838b2ef9993f-FRA]
+14:01:38.356 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654344098301,"status":"online"}}
+14:01:38.587 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 8 expired buckets
+14:01:38.588 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+14:01:41.894 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716083e8cfee9bb8-FRA]
+14:01:42.078 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+14:01:42.101 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+14:01:42.101 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+14:01:42.102 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+14:01:42.102 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+14:01:42.324 - [JDA MainWS-WriteThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+14:01:42.324 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+14:01:42.324 - [JDA MainWS-WriteThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+14:01:42.330 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+14:01:42.641 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+14:01:42.641 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+14:01:42.696 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+14:01:42.700 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+14:01:42.716 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+14:01:42.717 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+14:01:42.720 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+14:01:42.720 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+14:01:42.723 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+14:01:42.724 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+14:01:42.725 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+14:01:43.227 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716083f028b49bb8-FRA]
+14:01:43.556 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PATCH/webhooks/{application_id}/{interaction_token}/messages/{message_id} -> 3cd1f278bd0ecaf11e0d2391374c011d
+14:01:43.557 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716083f2ddcf9bb8-FRA]
+14:01:44.142 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"188 Users","type":3}],"afk":false,"since":1654344104113,"status":"online"}}
+14:01:44.296 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+14:01:44.297 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716083f7f9479bb8-FRA]
+14:01:44.303 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+14:01:44.312 - [JDA RateLimit-Worker 4] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+14:01:44.312 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716083f7f94a9bb8-FRA]
+14:01:59.467 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654344119112,"status":"online"}}
+14:02:00.001 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 8 expired buckets
+14:02:00.002 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+14:02:03.338 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [7160846effaf9006-FRA]
+14:02:03.500 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+14:02:03.522 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+14:02:03.522 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+14:02:03.522 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+14:02:03.522 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+14:02:03.753 - [JDA MainWS-ReadThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+14:02:03.753 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+14:02:03.753 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+14:02:03.775 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+14:02:04.013 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+14:02:04.013 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+14:02:04.067 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+14:02:04.072 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+14:02:04.090 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+14:02:04.091 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+14:02:04.093 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+14:02:04.093 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+14:02:04.094 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+14:02:04.095 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+14:02:04.096 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+14:02:05.697 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+14:02:05.698 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Encountered 429 on route PUT/applications/{application_id}/commands with bucket ae189c08c8f3c47d2311646889fed041:n/a Retry-After: 18000 ms
+14:02:05.698 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [7160847dd8af9006-FRA]
+14:02:05.744 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+14:02:05.744 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Encountered 429 on route PUT/applications/{application_id}/guilds/{guild_id}/commands with bucket ae189c08c8f3c47d2311646889fed041:guild_id=580732235313971211 Retry-After: 18000 ms
+14:02:05.744 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [7160847dd8b19006-FRA]
+14:02:06.042 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"Preview 1.0","type":0}],"afk":false,"since":1654344125536,"status":"online"}}
+14:02:07.761 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [7160848a0d209006-FRA]
+14:02:08.081 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PATCH/webhooks/{application_id}/{interaction_token}/messages/{message_id} -> 3cd1f278bd0ecaf11e0d2391374c011d
+14:02:08.082 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [7160848c69459006-FRA]
+14:02:16.339 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 6 expired buckets
+14:02:16.343 - [Thread-0] INFO  n.d.j.internal.requests.RateLimiter - Waiting for 2 bucket(s) to finish. Average queue size of 1 requests
+14:02:16.344 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!
+14:02:19.524 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716084d42ba49279-FRA]
+14:02:19.697 - [main] INFO  net.dv8tion.jda.api.JDA - Login Successful!
+14:02:19.721 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Creating new worker handle for shard pool 0
+14:02:19.721 - [main] DEBUG n.d.j.a.u.SessionControllerAdapter - Running worker
+14:02:19.722 - [main] INFO  dev.redcodes.euklid.Euklid - The bot is now online!
+14:02:19.722 - [ConcurrentSessionController-Worker-0] DEBUG n.d.j.a.u.SessionControllerAdapter - Running connect node for shard Shard [0 / 1]
+14:02:19.968 - [JDA MainWS-ReadThread] INFO  n.d.j.i.requests.WebSocketClient - Connected to WebSocket
+14:02:19.969 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Connected with gateway intents: 111111011101111
+14:02:19.969 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Sending Identify-packet...
+14:02:19.989 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.requests.WebSocketClient - Got HELLO packet (OP 10). Initializing keep-alive.
+14:02:20.175 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Setting incomplete count to 4
+14:02:20.175 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Starting 75 second timeout for 4 guilds
+14:02:20.230 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 580732235313971211 OwnerId: 277048745458401282
+14:02:20.234 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 580732235313971211 firing cached events 0
+14:02:20.251 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 712313516542918717 OwnerId: 277048745458401282
+14:02:20.252 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 712313516542918717 firing cached events 0
+14:02:20.254 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 838172477170778122 OwnerId: 834461264415162388
+14:02:20.255 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 838172477170778122 firing cached events 0
+14:02:20.256 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.entities.EntityBuilder - Finished setup for guild with a null owner. GuildId: 841586195921371136 OwnerId: 607286619028062218
+14:02:20.257 - [JDA MainWS-ReadThread] INFO  net.dv8tion.jda.api.JDA - Finished Loading!
+14:02:20.258 - [JDA MainWS-ReadThread] DEBUG n.d.j.i.handle.GuildSetupController - Finished setup for guild 841586195921371136 firing cached events 0
+14:02:21.680 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716084e0d9b79279-FRA]
+14:02:21.741 - [JDA Gateway-Worker 1] DEBUG n.d.j.i.requests.WebSocketClient - Sending normal message {"op":3,"d":{"activities":[{"name":"mit euklid","type":0}],"afk":false,"since":1654344141735,"status":"online"}}
+14:02:21.880 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/commands -> ae189c08c8f3c47d2311646889fed041
+14:02:21.881 - [JDA RateLimit-Worker 1] DEBUG n.d.j.internal.requests.RateLimiter - Encountered 429 on route PUT/applications/{application_id}/commands with bucket ae189c08c8f3c47d2311646889fed041:n/a Retry-After: 2000 ms
+14:02:21.881 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716084e32e2b9279-FRA]
+14:02:21.912 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PUT/applications/{application_id}/guilds/{guild_id}/commands -> ae189c08c8f3c47d2311646889fed041
+14:02:21.912 - [JDA RateLimit-Worker 2] DEBUG n.d.j.internal.requests.RateLimiter - Encountered 429 on route PUT/applications/{application_id}/guilds/{guild_id}/commands with bucket ae189c08c8f3c47d2311646889fed041:guild_id=580732235313971211 Retry-After: 2000 ms
+14:02:21.912 - [JDA RateLimit-Worker 2] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716084e32e2e9279-FRA]
+14:02:21.943 - [JDA RateLimit-Worker 4] DEBUG n.d.j.internal.requests.RateLimiter - Caching bucket hash PATCH/webhooks/{application_id}/{interaction_token}/messages/{message_id} -> 3cd1f278bd0ecaf11e0d2391374c011d
+14:02:21.943 - [JDA RateLimit-Worker 4] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716084e32e2f9279-FRA]
+14:02:24.074 - [JDA RateLimit-Worker 1] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716084f08d299279-FRA]
+14:02:24.081 - [ForkJoinPool.commonPool-worker-1] INFO  dev.redcodes.euklid.Euklid - Commands published
+14:02:24.199 - [JDA RateLimit-Worker 3] DEBUG n.d.jda.internal.requests.Requester - Received response with following cf-rays: [716084f0bd959279-FRA]
+14:02:30.520 - [Thread-0] DEBUG n.d.j.internal.requests.RateLimiter - Removed 8 expired buckets
+14:02:30.521 - [Thread-0] INFO  dev.redcodes.euklid.Euklid - The bot is now offline!

@@ -3,6 +3,7 @@ package dev.redcodes.euklid.general.info;
 import java.time.Instant;
 
 import dev.redcodes.euklid.Euklid;
+import dev.redcodes.euklid.episode.EpisodeUtils;
 import dev.redcodes.euklid.mathefacts.MathefactUtils;
 import dev.redcodes.euklid.stadtgeschichten.StadtGeschichtenUtils;
 import dev.redcodes.euklid.util.MessageColor;
@@ -41,8 +42,8 @@ public class InfoCommand extends ListenerAdapter {
 			msg.addField("Users", String.valueOf(users), true);
 			msg.addField("Uptime",
 					days + " Tage, " + hours + " Stunden, " + minutes + " Minuten, " + seconds + " Sekunden", true);
-			msg.addField("Folgen", String.valueOf(MathefactUtils.countEpisodes()), true);
-			msg.addField("Mathefacts", String.valueOf(MathefactUtils.countMathefacts()), true);
+			msg.addField("Folgen", String.valueOf(EpisodeUtils.getEpisodes().size()), true);
+			msg.addField("Mathefacts", String.valueOf(MathefactUtils.getMathefacts().size()), true);
 			msg.addField("Stadtgeschichten", String.valueOf(StadtGeschichtenUtils.getStadtGeschichten().size()), true);
 			msg.addField("Bot-Version", Euklid.getVersion(), true);
 			msg.addBlankField(true);

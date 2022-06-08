@@ -1,4 +1,4 @@
-package dev.redcodes.euklid.stadtgeschichten;
+package dev.redcodes.euklid.episode;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -15,17 +15,16 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
 import dev.redcodes.euklid.Euklid;
-import dev.redcodes.euklid.episode.Episode;
 
-public class StadtGeschichtenUtils {
+public class EpisodeUtils {
 
-	public static List<StadtGeschichte> getStadtGeschichten() {
+	public static List<Episode> getEpisodes() {
 
-		List<StadtGeschichte> storys = new LinkedList<>();
+		LinkedList<Episode> list = new LinkedList<>();
 
 		try {
 
-			URL url = new URL(Euklid.getStoryDataUrl());
+			URL url = new URL(Euklid.getEpisodeDataUrl());
 
 			URLConnection connection = url.openConnection();
 
@@ -38,25 +37,16 @@ public class StadtGeschichtenUtils {
 			Iterator<JsonElement> iterator = array.iterator();
 
 			while (iterator.hasNext()) {
-				JsonObject e = iterator.next().getAsJsonObject();
+				JsonObject episode = iterator.next().getAsJsonObject();
 
-				Iterator<JsonElement> storyIterator = e.get("geschichten").getAsJsonArray().iterator();
-
-				while (storyIterator.hasNext()) {
-					JsonObject storyObj = storyIterator.next().getAsJsonObject();
-
-					storys.add(new StadtGeschichte(new Episode(e.get("folgenId").getAsInt()),
-							storyObj.get("titel").getAsString()));
-
-				}
-
+				list.add(new Episode(episode.get("folgenId").getAsInt()));
 			}
 
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
 
-		return storys;
+		return list;
 	}
 
 }

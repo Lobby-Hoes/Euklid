@@ -39,7 +39,7 @@ public class Euklid {
 
 	private static Logger logger = LoggerFactory.getLogger(Euklid.class);
 
-	private static String version = "Preview 1.1";
+	private static String version = "Preview 1.2";
 
 	private static boolean dev = false;
 
@@ -48,13 +48,15 @@ public class Euklid {
 	private static String icon = "https://i.imgur.com/xARAVsM.png";
 
 	private static Instant online = Instant.now();
-	
-	private static String data = "https://raw.githubusercontent.com/Lobby-Hoes/hobbylos-data/main/data.json";
+
+	private static String episodeData = "https://raw.githubusercontent.com/Lobby-Hoes/hobbylos-data/main/folgen.json";
+	private static String mathefactData = "https://raw.githubusercontent.com/Lobby-Hoes/hobbylos-data/main/mathefacts.json";
+	private static String storyData = "https://raw.githubusercontent.com/Lobby-Hoes/hobbylos-data/main/staedtegeschichten.json";
 
 	public static void main(String[] args) {
-				
+
 		String token = args[0];
-		
+
 		JDABuilder builder = JDABuilder.createDefault(token);
 
 		builder.setActivity(Activity.watching("Bot starting..."));
@@ -66,7 +68,7 @@ public class Euklid {
 
 		builder.setEnabledIntents(intents);
 		builder.setMemberCachePolicy(MemberCachePolicy.ALL);
-		
+
 		builder.addEventListeners(new MathefactAutoComplete());
 		builder.addEventListeners(new MathefactCommand());
 		builder.addEventListeners(new InfoCommand());
@@ -208,13 +210,21 @@ public class Euklid {
 	public static Instant getOnlineSince() {
 		return online;
 	}
-	
+
 	public static String getVersion() {
 		return version;
 	}
-	
-	public static String getDataUrl() {
-		return data;
+
+	public static String getEpisodeDataUrl() {
+		return episodeData;
+	}
+
+	public static String getMathefactDataUrl() {
+		return mathefactData;
+	}
+
+	public static String getStoryDataUrl() {
+		return storyData;
 	}
 
 }
