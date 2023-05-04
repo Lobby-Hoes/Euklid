@@ -52,7 +52,7 @@ public class Euklid {
     private static String episodeData = "https://raw.githubusercontent.com/Lobby-Hoes/hobbylos-data/main/folgen.json";
     private static String mathefactData = "https://raw.githubusercontent.com/Lobby-Hoes/hobbylos-data/main/mathefacts.json";
     private static String storyData = "https://raw.githubusercontent.com/Lobby-Hoes/hobbylos-data/main/staedtegeschichten.json";
-    private static String playlistData = "https://raw.githubusercontent.com/Lobby-Hoes/hobbylos-data/main/playlists.json";
+    private static String playlistData = "https://raw.githubusercontent.com/Lobby-Hoes/hobbylos-data/main/playlist.json";
 
     public static void main(String[] args) {
 
