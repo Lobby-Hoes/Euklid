@@ -39,9 +39,9 @@ public class Euklid {
 
     private static Logger logger = LoggerFactory.getLogger(Euklid.class);
 
-    private static String version = "Preview 1.2";
+    private static String version = "Alpha 1.3";
 
-    private static boolean dev = false;
+    private static boolean dev = true;
 
     private static String year;
 
@@ -153,6 +153,7 @@ public class Euklid {
                     .addOptions(new OptionData(OptionType.STRING, "suche",
                             "Suche nach der Folgennummer, Folgenname oder dem Titel der Stadtgeschichte.", true)
                             .setAutoComplete(true)));
+            cmds.add(Commands.slash("playlist", "Suche nach einem Playlist-Eintrag aus der Lobbyhoes Playlist.").addOptions(new OptionData(OptionType.STRING, "suche", "Suche nach dem Songtitel, der Folgennummer oder dem Namen der Folge", true).setAutoComplete(true));
             cmds.add(Commands.slash("info", "Information über den Bot."));
 
             if (dev) {
